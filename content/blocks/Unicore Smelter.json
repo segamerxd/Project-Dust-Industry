@@ -1,33 +1,32 @@
-{	
-        "type": "GenericSmelter",
-	"name": "Unicore Smelter",
-        "description": "Genera altas presiones dentro del el formando unicore con Torio titanio y plastanio",
-        "liquidCapacity": 50,
-        "size": 3,
+"type": "GenericSmelter",
+	"name": "unicore Smelter",
+	"description": "Un Horno a presion capaz de unir materiales que jamaz se unirian",
+	"liquidCapacity": 50,
+	"outputItem": {"item": "Unicore", "amount": 1},
+	"size": 2,
 	"hasPower": true,
 	"hasLiquids": false,
-        "hasItems": true,
-	"itemCapacity": 50,
-	"craftTime": 80,
-	"flameColor": "29088A",
-        "updateEffect": "smeltsmoke",
+	"hasItems": true,
+	"craftTime": 60,
+	"updateEffect": "smeltsmoke",
 	"consumes": {
-		"power": 1,
+		"power": 0.7,
 		"items": {
 			"items": [
-                                    { "item": "thorium", "amount": 10 },
-				    { "item": "titanium", "amount": 10 },
-			]           { "item": "plastanium", "amount": 5 }
+				{ "item": "thorium", "amount": 10 },
+				{ "item": "titanium", "amount": 10 }
+                                { "item": "plastanium", "amount": 5 }
+			]
 		}
 	},
 	"requirements": [
-                { "item": "thorium", "amount": 80 },
-		{ "item": "titanium", "amount": 60 },
-		{ "item": "silicon", "amount": 50 }
+		{ "item": "lead", "amount": 50 },
+		{ "item": "thorium", "amount": 80 },
+		{ "item": "silicon", "amount": 60 },
+		{ "item": "copper", "amount": 50 }
 	],
 	"category": "crafting",
 	"research": "silicon-smelter",
-        "idleSound": "respawning",
-	{"item": "Unicore", "amount": 1},
-        "idleSoundVolume": 0.5
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
 }
