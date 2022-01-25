@@ -1,7 +1,6 @@
 {
 	{	
     "type": "GenericCrafter",
-	"drawer": {
 	"name": "Unicore smelter",
 	"flameColor": "#29088A"
 	},
@@ -17,10 +16,10 @@
 		"power": 2,
 		"items": {
 			"items": [
-			"titanium/10",
-			"thorium/10",
-			"plastanium/5"
-			]
+			{ "item": "plastanium", "amount": 5 },
+				{ "item": "thorium", "amount": 10 }
+			             { "item": "thitanium", "amount": 10 }
+                       ]
 		}
 	},
 	"requirements": [
