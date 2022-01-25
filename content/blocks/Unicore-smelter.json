@@ -2,8 +2,8 @@
 	"type": "GenericCrafter",
 	"drawer": {
   "type": "drawArcSmelter",
-  "flameColor": "66B1FFFF",
-  "midColor": "A9D8FFFF",
+  "flameColor": "471FD2",
+  "midColor": "9262F8",
   "flameRad": 1.6,
   "circleSpace": 2,
   "circleStroke": 0.9,
@@ -27,8 +27,8 @@
     "sizeTo": 40,
     "strokeFrom": 4,
     "strokeTo": 0,
-    "colorFrom": "A9D8FFFF",
-    "colorTo": "66B1FFFF"
+    "colorFrom": "CFA9FF",
+    "colorTo": "666EFF"
 	},
 	"updateEffect": "none",
 	"consumes": {
