@@ -5,7 +5,8 @@
         "liquidCapacity": 50,
         "size": 3,
 	"hasPower": true,
-	"hasItems": true,
+	"hasLiquids": false,
+        "hasItems": true,
 	"itemCapacity": 50,
 	"craftTime": 80,
 	"flameColor": "29088A",
@@ -22,7 +23,7 @@
 	"requirements": [
                 { "item": "thorium", "amount": 80 },
 		{ "item": "titanium", "amount": 60 },
-		{ "item": "silicon", "amount": 50 }
+		{ "item": "silicon", "amount": 50 },
 	],
 	"category": "crafting",
 	"research": "silicon-smelter",
