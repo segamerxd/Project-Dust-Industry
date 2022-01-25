@@ -1,15 +1,16 @@
-{
-	{	
+{	
     "type": "GenericSmelter",
 	"name": "Unicore smelter",
 	"flameColor": "#29088A"
 	"description": "Con un agujero negro Interno... Torio plastanio y titanio y altas presiones es capaz de generar Unicore",
-	"size": 3,
-	"hasPower": true,
+	"liquidCapacity": 50,
+        "size": 3,
+	"outputItem": {"item": "Unicore", "amount": 1},
+        "hasPower": true,
 	"hasLiquids": false,
 	"hasItems": true,
 	"craftTime": 150,
-	"itemCapacity": 30,
+	"itemCapacity": 60,
 	"craftEffect": "instBomb",
 	"updateEffect": "none",
 	"consumes": {
@@ -23,16 +24,14 @@
 		}
 	},
 	"requirements": [
-		{"item": "silicon", "amount": 160},
-		{"item": "lead", "amount": 160},
-		{"item": "thorium", "amount": 140},
-		{"item": "titanium", "amount": 160},
-		{"item": "plastanium", "amount": 440}
+		{ "item": "lead", "amount": 50 },
+		{ "item": "thorium", "amount": 80 },
+		{ "item": "silicon", "amount": 60 },
+		{ "item": "copper", "amount": 50 }
 	],
 	"category": "crafting",
-	"research": "alloy-smelter",
-	"outputItem": {
-		"item": "Unicore",
-		"amount": 1
+	"research": "silicon-smelter",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
 	}
 
