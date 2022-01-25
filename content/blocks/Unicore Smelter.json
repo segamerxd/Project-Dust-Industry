@@ -4,7 +4,7 @@
 	"description": "Combina Plastanio torio y titanio con gran presión",
 	"liquidCapacity": 50,
 	"outputItem": {"item": "Unicore", "amount": 1},
-	"size": 4,
+	"size": 3,
 	"hasPower": true,
 	"hasLiquids": false,
 	"hasItems": true,
