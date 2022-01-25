@@ -53,4 +53,6 @@
 	"category": "crafting",
 	"research": "alloy-smelter",
 	"outputItem": "Unicore/2"
+        "idleSound": "respawning",
+	"idleSoundVolume": 0.5
 }
