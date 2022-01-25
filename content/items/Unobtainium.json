@@ -1,6 +1,8 @@
 {
+    "type": "resource",
+    "name": "Unobtainium"
     "cost": 1,
-    "color": "403F3FFF",
+    "color": "#642EFE",
     "research": {
     "parent": "surge-alloy",
     "requirements": [
