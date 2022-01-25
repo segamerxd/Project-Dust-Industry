@@ -4,8 +4,8 @@
 	"name": "Unobtainium",
 	"description": "Material Formado por Titanio plastanio y torio a Presiones muy altas",
 	"color": "#5858FA"
-  "explosiveness": 0.2;   
-  "hardness": 4;
-  "radioactivity": 10.0;
-  "cost": 1.1;
+  "explosiveness": 0.2 
+  "hardness": 4
+  "radioactivity": 10.0
+  "cost": 1.1
 }
