@@ -1,7 +1,7 @@
 {	
     "type": "GenericSmelter",
 	"name": "Unicore Smelter",
-        "description": "Genera altas presiones dentro del el formando unicore con Torio titanio y plastanio"
+        "description": "Genera altas presiones dentro del el formando unicore con Torio titanio y plastanio",
         "liquidCapacity": 50,
         "size": 3,
 	"hasPower": true,
@@ -14,8 +14,8 @@
 		"items": {
 			"items": [
                                     { "item": "thorium", "amount": 10 },
-				                 { "item": "titanium", "amount": 10 }
-			]                                 { "item": "plastanium", "amount": 5 }
+				    { "item": "titanium", "amount": 10 },
+			]           { "item": "plastanium", "amount": 5 },
 		}
 	},
 	"requirements": [
