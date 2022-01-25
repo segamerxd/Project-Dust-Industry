@@ -1,9 +1,9 @@
 {
 	{	
-    "type": "GenericCrafter",
+    "type": "GenericSmelter",
 	"name": "Unicore smelter",
 	"flameColor": "#29088A"
-	},
+	"description": "Con un agujero negro Interno... Torio plastanio y titanio y altas presiones es capaz de generar Unicore",
 	"size": 3,
 	"hasPower": true,
 	"hasLiquids": false,
