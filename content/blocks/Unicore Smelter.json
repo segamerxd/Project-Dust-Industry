@@ -1,7 +1,7 @@
 {
 
 "type": "GenericSmelter",
-	"name": "unicore Smelter",
+	"name": "Unicore-smelter",
 	"description": "Un Horno a presion capaz de unir materiales que jamaz se unirian",
 	"liquidCapacity": 50,
 	"outputItem": {"item": "Unicore", "amount": 1},
