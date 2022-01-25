@@ -1,6 +1,6 @@
 {
 	"type": "GenericSmelter",
-	"name": "Unicore Smerlter",
+	"name": "Unicore smerlter",
 	"description": "Combina Plastanio torio y titanio con gran presión",
 	"liquidCapacity": 50,
 	"outputItem": {"item": "Unicore", "amount": 1},
