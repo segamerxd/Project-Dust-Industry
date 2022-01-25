@@ -2,7 +2,7 @@
 	"type": "GenericCrafter",
 	"drawer": {
   "type": "drawArcSmelter",
-  "name": "Compreso de Unicore"
+  "name": "Compreso de Unicore",
   "flameColor": "471FD2",
   "midColor": "9262F8",
   "flameRad": 1.6,
