@@ -3,7 +3,7 @@
     "type": "GenericCrafter",
 	"drawer": {
 	"type": "DrawSmelter",
-	"flameColor": "F3E979FF"
+	"flameColor": "#29088A"
 	},
 	"size": 3,
 	"hasPower": true,
@@ -33,7 +33,7 @@
 	"category": "crafting",
 	"research": "alloy-smelter",
 	"outputItem": {
-		"item": "Unicore-dark",
+		"item": "Unicore",
 		"amount": 2
 	}
 
