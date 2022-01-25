@@ -8,4 +8,5 @@
         "parent": "surge-alloy"
         "requirements": [
         "thorium/5" "plastanium/2" "titanium/5"
+ ]
 }
