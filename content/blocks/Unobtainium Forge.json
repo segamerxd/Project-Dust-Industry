@@ -1,0 +1,32 @@
+{
+	"type": "GenericSmelter",
+	"name": "Unobtainium forge",
+	"description": "Combines Plastanium and Blast Compound",
+	"liquidCapacity": 50,
+	"outputItem": {"item": "Unobtainium", "amount": 1},
+	"size": 4,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 60,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.7,
+		"items": {
+			"items": [
+				{ "item": "plastanium", "amount": 1 },
+				{ "item": "titanium", "amount": 1 }
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 300 },
+		{ "item": "thorium", "amount": 400 },
+		{ "item": "silicon", "amount": 200 },
+		{ "item": "titanium", "amount": 100 }
+	],
+	"category": "crafting",
+	"research": "silicon-smelter",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}
