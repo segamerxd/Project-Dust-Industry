@@ -23,7 +23,7 @@
 	"requirements": [
                 { "item": "thorium", "amount": 80 },
 		{ "item": "titanium", "amount": 60 },
-		{ "item": "silicon", "amount": 50 },
+		{ "item": "silicon", "amount": 50 }
 	],
 	"category": "crafting",
 	"research": "silicon-smelter",
