@@ -1,6 +1,9 @@
 {	
     "type": "GenericSmelter",
-	"size": 3,
+	"name": "Unicore Smelter",
+        "description": "Genera altas presiones dentro del el formando unicore con Torio titanio y plastanio"
+        "liquidCapacity": 50,
+        "size": 3,
 	"hasPower": true,
 	"hasItems": true,
 	"itemCapacity": 50,
@@ -10,19 +13,19 @@
 		"power": 1,
 		"items": {
 			"items": [
-               "thorium/10",
-               "titanium/10",
-               "plastanium/5"
-			]
+                                    { "item": "thorium", "amount": 10 },
+				                 { "item": "titanium", "amount": 10 }
+			]                                 { "item": "plastanium", "amount": 5 }
 		}
 	},
 	"requirements": [
-        "thorium/200",
-        "titanium/400",
-        "silicon/330",
-        "lead/300"
+                { "item": "thorium", "amount": 80 },
+		{ "item": "titanium", "amount": 60 },
+		{ "item": "silicon", "amount": 50 }
 	],
 	"category": "crafting",
 	"research": "silicon-smelter",
+        "idleSound": "respawning",
 	"outputItem": "Unicore/1"
+        "idleSoundVolume": 0.5
 }
