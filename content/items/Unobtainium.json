@@ -1,12 +1,10 @@
 {
-	"type": "resource",
-	"name": "Unobtainium",
-	"description": "Material Creado a partir de presiones intensas al juntar Torio, plastanio y titanio",
-	"color": "#642EFE"
-        "Radioactivity": 0.3, 
-        "research": {
-        "parent": "surge-alloy"
-        "requirements": [
-        "thorium/5" "plastanium/2" "titanium/5"
-
+    "cost": 1,
+    "color": "403F3FFF",
+    "research": {
+    "parent": "surge-alloy",
+    "requirements": [
+    "thorium/20" "plastanium/5" "titanium/15"
+  ]
+  }
 }
