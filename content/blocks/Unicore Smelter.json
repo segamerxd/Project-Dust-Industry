@@ -5,7 +5,7 @@
 	"description": "Un Horno a presion capaz de unir materiales que jamaz se unirian",
 	"liquidCapacity": 50,
 	"outputItem": {"item": "Unicore", "amount": 1},
-	"size": 2,
+	"size": 3,
 	"hasPower": true,
 	"hasLiquids": false,
 	"hasItems": true,
