@@ -1,34 +1,55 @@
-{
-
-"type": "GenericSmelter",
-	"name": "Unicore-smelter",
-	"description": "Un Horno a presion capaz de unir materiales que jamaz se unirian",
-	"liquidCapacity": 50,
-	"outputItem": {"item": "Unicore", "amount": 1},
+{	
+	"type": "GenericCrafter",
+	"drawer": {
+  "type": "drawArcSmelter",
+  "flameColor": "66B1FFFF",
+  "midColor": "A9D8FFFF",
+  "flameRad": 1.6,
+  "circleSpace": 2,
+  "circleStroke": 0.9,
+  "alpha": 2,
+  "particleRad": 10,
+  "particles": 32,
+  "particleLen": 5,
+  "particleStroke": 0.9,
+  "particleLife": 80
+	},
 	"size": 3,
 	"hasPower": true,
 	"hasLiquids": false,
 	"hasItems": true,
-	"craftTime": 60,
-	"updateEffect": "smeltsmoke",
+	"itemCapacity": 30,
+	"craftTime": 150,
+	"craftEffect": {
+	"type": "WaveEffect",
+    "lifetime": 25,
+    "sizeFrom": 0,
+    "sizeTo": 40,
+    "strokeFrom": 4,
+    "strokeTo": 0,
+    "colorFrom": "A9D8FFFF",
+    "colorTo": "66B1FFFF"
+	},
+	"updateEffect": "none",
 	"consumes": {
-		"power": 0.7,
+		"power": 2,
 		"items": {
 			"items": [
-				{ "item": "thorium", "amount": 10 },
-				{ "item": "titanium", "amount": 10 },
-                                { "item": "plastanium", "amount": 5 }
+                        "titanium/3",
+                        "copper/3",
+			"astrolite/5",
+			"silicon/4"
 			]
 		}
 	},
 	"requirements": [
-		{ "item": "lead", "amount": 50 },
-		{ "item": "thorium", "amount": 80 },
-		{ "item": "silicon", "amount": 60 },
-		{ "item": "copper", "amount": 50 }
+	    "silicon/10",
+		"titanium/10",
+		"thorium/10",
+		"plastanium/5",
+        "astrolite/440"
 	],
 	"category": "crafting",
-	"research": "silicon-smelter",
-	"idleSound": "respawning",
-	"idleSoundVolume": 0.5
+	"research": "alloy-smelter",
+	"outputItem": "Unicore/2"
 }
