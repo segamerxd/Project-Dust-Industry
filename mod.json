@@ -1,8 +1,8 @@
 {
   //name: "DustIndustry"
   name: "Dust"
-  //displayName: "DustDustryMod"
-  displayName: "DustIndustryMod"
+  //displayName: "Dust Dustry Mod"
+  displayName: "Dust Industry Mod"
   description: "A quality of life content mod made with the purpose of complementing other larger mods.\nUse the issues option in github to leave suggestions."
   author: Arkanic (Discord ID: 640672013379436571)
   version: "1.0"
