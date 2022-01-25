@@ -1,6 +1,6 @@
 {
 	"type": "GenericSmelter",
-	"name": "Unobtainium forge",
+	"name": "Unicore Smerlter",
 	"description": "Combina Plastanio torio y titanio con gran presión",
 	"liquidCapacity": 50,
 	"outputItem": {"item": "Unobtainium", "amount": 1},
