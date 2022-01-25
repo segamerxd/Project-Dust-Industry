@@ -1,33 +1,39 @@
 {
-	"type": "GenericSmelter",
-	"name": "Unicore smerlter",
-	"description": "Combina Plastanio torio y titanio con gran presión",
-	"liquidCapacity": 50,
-	"outputItem": {"item": "Unicore", "amount": 1},
+	{	
+    "type": "GenericCrafter",
+	"drawer": {
+	"type": "DrawSmelter",
+	"flameColor": "F3E979FF"
+	},
 	"size": 3,
 	"hasPower": true,
 	"hasLiquids": false,
 	"hasItems": true,
-	"craftTime": 70,
-	"updateEffect": "smeltsmoke",
+	"craftTime": 150,
+	"itemCapacity": 30,
+	"craftEffect": "instBomb",
+	"updateEffect": "none",
 	"consumes": {
-		"power": 0.7,
+		"power": 2,
 		"items": {
 			"items": [
-				{ "item": "plastanium", "amount": 5 },
-				{ "item": "titanium", "amount": 10 }
-			        { "item": "thorium", "amount": 10 }
-                       ]
+			"titanium/10",
+			"thorium/10",
+			"plastanium/5"
+			]
 		}
 	},
 	"requirements": [
-		{ "item": "lead", "amount": 300 },
-		{ "item": "thorium", "amount": 400 },
-		{ "item": "silicon", "amount": 200 },
-		{ "item": "titanium", "amount": 100 }
+		{"item": "silicon", "amount": 160},
+		{"item": "lead", "amount": 160},
+		{"item": "thorium", "amount": 140},
+		{"item": "titanium", "amount": 160},
+		{"item": "plastanium", "amount": 440}
 	],
 	"category": "crafting",
-	"research": "silicon-smelter",
-	"idleSound": "respawning",
-	"idleSoundVolume": 0.5
-}
+	"research": "alloy-smelter",
+	"outputItem": {
+		"item": "Unicore-dark",
+		"amount": 2
+	}
+
