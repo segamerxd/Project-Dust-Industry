@@ -17,7 +17,7 @@
 			"items": [
                                     { "item": "thorium", "amount": 10 },
 				    { "item": "titanium", "amount": 10 },
-			]           { "item": "plastanium", "amount": 5 },
+			]           { "item": "plastanium", "amount": 5 }
 		}
 	},
 	"requirements": [
