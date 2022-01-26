@@ -11,7 +11,7 @@ shootSound: bang
 ammoPerShot: 6
 inaccuracy: 17
 ammoTypes: {
-  phase-fabric: {
+  Unicore: {
     ammoMultiplier: 1
     damage: 0
     speed: 7
