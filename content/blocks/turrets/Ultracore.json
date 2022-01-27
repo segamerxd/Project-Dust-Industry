@@ -121,7 +121,6 @@
         "height": 7
         "hitSound": "explosion"
       }
-    }
  },
 	"consumes" : {
 		"power": 80
