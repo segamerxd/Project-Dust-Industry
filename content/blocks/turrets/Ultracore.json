@@ -9,7 +9,7 @@
 "size": 4,
 "targetAir": true,
 "targetGround": true,
-shootSound: "bang",
+"shootSound": "bang",
 "ammoPerShot": 6,
 "inaccuracy": 17
 
