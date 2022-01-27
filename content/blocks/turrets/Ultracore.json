@@ -41,14 +41,14 @@
           "colorTo": "d2b29c"
         }
         {
-          "type": "WaveEffect"
+          "type": "WaveEffect",
           "sizeFrom": 120,
           "sizeTo": 0,
           "lifetime": 60,
           "colorFrom": "d2b29c00",
           "colorTo": "d2b29c70",
           "strokeFrom": 0,
-          "strokeTo": 3
+          "strokeTo": 3,
         }
       ]
     }
