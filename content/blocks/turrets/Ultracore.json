@@ -128,7 +128,6 @@
 "consumes" : {
 		"power": 80
 			},
-	}
 	},
 	"consumes" : {
 		"power": 80
@@ -141,5 +140,5 @@
         "Unicore/100",
 	],
 	"category": "turret",
-	"research": "foreshadow"
+	"research": "Ultracore"
 }
