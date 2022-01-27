@@ -112,7 +112,7 @@
       "fragLifeMin": 0.4,
       "fragBullet": {
         "damage": 240,
-        speed: 2,
+        "speed": 2,
         "lifetime": 40,
         "hitEffect": "none"
         "despawnEffect": "flakExplosion"
