@@ -39,7 +39,18 @@
           "lenTo": 10,
           "colorFrom": "d2b29c00",
           "colorTo": "d2b29c"
-        }
+        },
+      
+       {
+          "type": "WaveEffect",
+          "sizeFrom": 120,
+          "sizeTo": 0,
+          "lifetime": 60,
+          "colorFrom": "d2b29c00",
+          "colorTo": "d2b29c70",
+          "strokeFrom": 0,
+          "strokeTo": 3,
+        },
       ]
     }
     "fragBullets": 1,
@@ -71,7 +82,7 @@
             "colorTo": "d2b29c",
             "strokeFrom": 5,
             "strokeTo": 0,
-          }
+          },
           {
             "type": "ParticleEffect"
             "line": true,
@@ -83,7 +94,7 @@
             "strokeTo": 0,
             "lenFrom": 12,
             "lenTo": 8,
-          }
+          },
           {
             "type": "ParticleEffect"
             "particles": 20,
@@ -95,9 +106,9 @@
             "colorTo": "34343400"
           }
         ]
-      }
+      },
       
-
+	    {
 "fragBullets": 14,
       "fragLifeMin": 0.4,
       "fragBullet": {
@@ -112,17 +123,23 @@
       }
     }
   }
-}
+},
+
+
+"consumes" : {
+		"power": 80
+			},
+	"requirements": [
 "research": "potential"
 
 "power": 80
 			},
-
-"requirements": [
   "copper/1800"
   "graphite/1000"
   "thorium/800"
   "phase-fabric/500"
   "amethyst-gem/150"
-]
-"category": "turret"
+],
+	"category": "turret",
+	"research": "Ultracore"
+}
