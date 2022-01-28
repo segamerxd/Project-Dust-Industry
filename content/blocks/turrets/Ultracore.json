@@ -125,16 +125,15 @@
         "consumes" : {
             "power": 80
                 },
-        "requirements": [
-            "thorium/520",
-            "titanium/550",
-            "silicon/400",
-            "copper/500",
-            "Unicore/100"
-        ],
-        "category": "turret",
-        "research": "duo"
-    }   "alwaysUnlocked": true
+       "requirements": [
+		{ "item": "plastanium", "amount": 200}
+         { "item": "thorium", "amount": 200}
+          { "item": "titanium", "amount": 500}
+	],      { "item": "Unicore", "amount": 50}
+	"category": "turret",
+		"research": "fuse"
+		
+    }   
   }
 }
   
