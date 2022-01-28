@@ -126,14 +126,14 @@
             "power": 80
                 },
        "requirements": [
-		{ "item": "plastanium", "amount": 200}
-         { "item": "thorium", "amount": 200}
+		{ "item": "plastanium", "amount": 200},
+         { "item": "thorium", "amount": 200},
           { "item": "titanium", "amount": 500}
-	],      { "item": "Unicore", "amount": 50}
-	"category": "turret",
+	],      "item": "Unicore", "amount": 50},
+
+	 "category": "turret",
 		"research": "fuse"
 		
     }   
   }
-}
-  
+
