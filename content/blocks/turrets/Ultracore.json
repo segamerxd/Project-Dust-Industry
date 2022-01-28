@@ -1,6 +1,7 @@
 {
     "health": 4600,
     "type": "ItemTurret",
+    "sprite": "Ultracore",
     "reloadTime": 45,
     "recoilAmount": 3,
     "shootCone": 30,
@@ -135,6 +136,6 @@
         "category": "turret",
         "research": "Ultracore"
     }
-  }
+}
 }
   
