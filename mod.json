@@ -1,9 +1,9 @@
 {
   //name: "DustIndustry"
-  name: "Dust"
+  name: "DustInc"
   //displayName: "Dust Dustry Mod"
   displayName: "Dust Industry Mod"
-  description: "A quality of life content mod made with the purpose of complementing other larger mods.\nUse the issues option in github to leave suggestions."
+  description: " Un mod de complementos ampleados donde puedes crear materiales avanzados y destruir el juego con armas radiactivas.\nPara cualquier problema o aporte contactame por Discord."
   author: Arkanic (Discord ID: 640672013379436571)
   version: "1.0.1 alpha"
   minGameVersion: "126"
