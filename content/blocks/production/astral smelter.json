@@ -2,7 +2,7 @@
 	"type": "GenericCrafter",
 	"drawer": {
   "type": "drawArcSmelter",
-  "name": "Compreso de Unicore",
+  "name": "Astral Smelter",
   "flameColor": "471FD2",
   "midColor": "9262F8",
   "flameRad": 1.6,
@@ -52,7 +52,7 @@
 	],
 	"category": "crafting",
 	"research": "alloy-smelter",
-	"outputItem": "Unicore/2"
+	"outputItem": "astral/2"
         "idleSound": "respawning",
 	"idleSoundVolume": 0.5
 }
