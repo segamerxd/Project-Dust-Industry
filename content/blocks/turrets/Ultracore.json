@@ -1,138 +1,75 @@
-{
-    "health": 2500,
-	  "name": "UltraCore",
-    "type": "ItemTurret",
-    "reloadTime": 40,
-    "recoilAmount": 3,
-    "shootCone": 30,
-    "range": 210,
+"type": "ItemTurret",
+    "researchCostMultiplier": 0.5,
     "size": 4,
-    "targetAir": false,
+    "health": 240,
+    "reloadTime": 20,
+    "range": 180,
+    "inaccuracy": 1,
+    "shots": 2,
+    "spread": 3,
+    "alternate": true,
+    "targetAir": true,
     "targetGround": true,
-    "shootSound": "bang",
-    "ammoPerShot": 10,
-    "inaccuracy": 17,
-    
+    "shootEffect": {
+    "type": "ParticleEffect",
+    "line": true,
+    "particles": 10,
+    "lifetime": 10,
+    "length": 35,
+    "cone": -360,
+    "lenFrom": 5,
+    "lenTo": 0,
+    "colorFrom": "73FFAEFF",
+    "colorTo": "73FFAEFF"
+    },
+    "shootCone": 0.08,
+    "recoilAmount": 0.5,
+    "restitution": 0.07,
+    "rotateSpeed": 5,
+    "shootSound": "sap",
+    "hasPower": true,
     "ammoTypes": {
-      "type": { "Unicore"
-        "ammoMultiplier": 2,
-        "damage": 3,
-        "speed": 7,
-        "lifetime": 30,
-        "height": 45,
-        "width": 20,
-        "hitEffect": "none",
-        "despawnEffect": {
-          
-    "type": "MultiEffect",
-          "effects": [
-            {
-              "type": "ParticleEffect",
-              "particles": 100,
-              "lifetime": 60,
-              "length": -60,
-              "baseLength": 90,
-              "line": true,
-              "strokeFrom": 3,
-              "strokeTo": 0,
-              "lenFrom": 0,
-              "lenTo": 10,
-              "colorFrom": "d2b29c00",
-              "colorTo": "d2b29c"
-            },
-          
-           {
-              "type": "WaveEffect",
-              "sizeFrom": 120,
-              "sizeTo": 0,
-              "lifetime": 60,
-              "colorFrom": "d2b29c00",
-              "colorTo": "d2b29c70",
-              "strokeFrom": 0,
-              "strokeTo": 3
-            }
-          ]
+        "unicore": {
+        "type": "LaserBoltBulletType",
+        "shrinkY": 0.1,
+        "shrinkX": 0.1,
+        "speed": 5,
+        "lifetime": 40,
+        "damage": 9,
+        "status": "shocked",
+        "height": 5,
+        "width": 2,
+        "hitEffect": {
+        "type": "ParticleEffect",
+        "line": true,
+        "particles": 5,
+        "lifetime": 10,
+        "length": 10,
+        "cone": -360,
+        "lenFrom": 1,
+        "lenTo": 0,
+        "colorFrom": "73FFAEFF",
+        "colorTo": "73FFAEFF"
         },
-        
-        "fragBullets": 1,
-        "fragBullet": {
-          "damage": 0,
-          "speed": 0,
-          "width": 0.01,
-          "height": 0.01,
-          "lifetime": 60,
-          "collides": false,
-          "collidesTiles": false,
-          "hittable": false,
-          "absorbable": false,
-          "splashDamage": 110,
-          "splashDamageRadius": 85,
-          "hitEffect": "none",
-          "keepVelocity": false,
-          "hitSound": "explosion",
-          "despawnEffect": {
-            "type": "MultiEffect",
-            "lifetime": 120,
-            "effects": [
-              {
-                "type": "WaveEffect",
-                "sizeFrom": 0,
-                "sizeTo": 70,
-                "lifetime": 60,
-                "colorFrom": "d2b29c",
-                "colorTo": "d2b29c",
-                "strokeFrom": 5,
-                "strokeTo": 0
-              },
-              {
-                "type": "ParticleEffect",
-                "line": true,
-                "particles": 30,
-                "length": 65,
-                "lifetime": 80,
-                "colorTo": "d2b29c",
-                "strokeFrom": 3,
-                "strokeTo": 0,
-                "lenFrom": 12,
-                "lenTo": 8
-              },
-              {
-                "type": "ParticleEffect",
-                "particles": 20,
-                "length": 120,
-                "lifetime": 80,
-                "sizeFrom": 4,
-                "sizeTo": 4,
-                "colorFrom": "343434",
-                "colorTo": "34343400"
-              }
-            ]
-          },
-          
-            
-    "fragBullets": 14,
-          "fragLifeMin": 0.4,
-          "fragBullet": {
-            "damage": 240,
-            "speed": 2,
-            "lifetime": 40,
-            "hitEffect": "none",
-            "despawnEffect": "flakExplosion",
-            "width": 5,
-            "height": 7,
-            "hitSound": "explosion"
-          }
-     },
-        "consumes" : {
-            "power": 80
-                },
-       "requirements": [
-		{ "item": "plastanium", "amount": 200},
-         { "item": "thorium", "amount": 200},
-          { "item": "titanium", "amount": 500}
-	],      "item": "Unicore", "amount": 50},
-	 "category": "turret",
-		"research": "fuse"
-    }   
-  }
-
+        "despawnEffect": {
+        "type": "WaveEffect",
+        "lifetime": 25,
+        "sizeFrom": 0,
+        "sizeTo": 10,
+        "strokeFrom": 1,
+        "strokeTo": 0,
+        "colorFrom": "73FFAEFF",
+        "colorTo": "73FFAEFF"
+        },
+        "frontColor": "FFFFFFF",
+        "backColor": "73FFAEFF"
+            }
+    },
+    "requirements": [
+        "unicore/20",
+        "silicon/200"
+        "thorium/50"
+    ],
+    "category": "turret",
+    "research": "duo"
+}
