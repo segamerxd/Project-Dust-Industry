@@ -7,12 +7,12 @@
   
  ​public​ ​class​  DustItems​ ​implements​ ​ContentList​ { 
  ​    ​public​ ​static​ ​Item 
- ​        Unicore, Quelium; 
+ ​        astral, Quelium; 
  ​    ; 
  ​    ​@Override 
  ​    ​public​ ​void​ ​load​() { 
- ​        Unicore ​=​ ​new​ ​Item​(​"​unicore​"​, ​Color​.​valueOf(​"​#6572ca​"​)){{ 
- ​            flammability ​=​ ​0.05f​; 
+ ​        Unicore ​=​ ​new​ ​Item​(​"​astral"​, ​Color​.​valueOf(​"​#b5f3e9​"​)){{ 
+ ​            flammability ​=​ ​ 0.05f​; 
  ​            explosiveness ​=​  0.4f​; 
  ​            radioactivity ​=​  1.2f​; 
  ​            charge ​=​  0.5f​; 
