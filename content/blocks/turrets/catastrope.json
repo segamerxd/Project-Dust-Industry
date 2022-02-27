@@ -3,10 +3,10 @@
     "researchCostMultiplier": 0.5,
     "size": 4,
     "health": 240,
-    "reloadTime": 20,
+    "reloadTime": 1,
     "range": 180,
     "inaccuracy": 1,
-    "shots": 2,
+    "shots": 3,
     "spread": 3,
     "alternate": true,
     "targetAir": true,
@@ -20,8 +20,8 @@
     "cone": -360,
     "lenFrom": 5,
     "lenTo": 0,
-    "colorFrom": "73FFAEFF",
-    "colorTo": "73FFAEFF"
+    "colorFrom": "b6d2f2",
+    "colorTo": "b6d2f2"
     },
     "shootCone": 0.08,
     "recoilAmount": 0.5,
@@ -49,8 +49,8 @@
         "cone": -360,
         "lenFrom": 1,
         "lenTo": 0,
-        "colorFrom": "73FFAEFF",
-        "colorTo": "73FFAEFF"
+        "colorFrom": "b6d2f2",
+        "colorTo": "b6d2f2"
         },
         "despawnEffect": {
         "type": "WaveEffect",
@@ -59,11 +59,11 @@
         "sizeTo": 10,
         "strokeFrom": 1,
         "strokeTo": 0,
-        "colorFrom": "73FFAEFF",
-        "colorTo": "73FFAEFF"
+        "colorFrom": "b6d2f2",
+        "colorTo": "b6d2f2"
         },
         "frontColor": "FFFFFFF",
-        "backColor": "73FFAEFF"
+        "backColor": "b6d2f2"
             }
     },
     "requirements": [
