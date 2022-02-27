@@ -1,3 +1,4 @@
+{
 "type": "ItemTurret",
     "researchCostMultiplier": 0.5,
     "size": 4,
@@ -67,10 +68,9 @@
     },
     "requirements": [
         "unicore/20",
-        "silicon/200"
+        "silicon/200",
         "thorium/50"
     ],
     "category": "turret",
     "research": "fuse"
-}
 }
