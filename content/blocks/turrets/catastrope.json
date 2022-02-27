@@ -29,7 +29,7 @@
     "shootSound": "sap",
     "hasPower": true,
     "ammoTypes": {
-        "unicore": {
+        "astral": {
         "type": "LaserBoltBulletType",
         "shrinkY": 0.1,
         "shrinkX": 0.1,
