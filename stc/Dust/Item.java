@@ -11,7 +11,7 @@
  ​    ; 
  ​    ​@Override 
  ​    ​public​ ​void​ ​load​() { 
- ​        Unicore ​=​ ​new​ ​Item​(​"​astral"​, ​Color​.​valueOf(​"​#b5f3e9​"​)){{ 
+ ​        Astral ​=​ ​new​ ​Item​(​"​astral"​, ​Color​.​valueOf(​"​#b5f3e9​"​)){{ 
  ​            flammability ​=​ ​ 0.05f​; 
  ​            explosiveness ​=​  0.4f​; 
  ​            radioactivity ​=​  1.2f​; 
