@@ -14,7 +14,7 @@
     "inaccuracy": 17,
     
     "ammoTypes": {
-      "Unicore": {
+      "type": { "Unicore"
         "ammoMultiplier": 2,
         "damage": 3,
         "speed": 7,
