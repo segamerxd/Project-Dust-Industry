@@ -6,7 +6,9 @@
 	"color": "#5858FA"
   "explosiveness": 0.2 
   "hardness": 4
-  "radioactivity": 1.0
+  "explosiveness": 0.4
+  "charge": 0.05
+  "radioactivity": 1.2
   "cost": 1.1
   "category": "thorium"
 }
