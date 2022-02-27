@@ -67,7 +67,7 @@
             }
     },
     "requirements": [
-        "unicore/20",
+        "astral/20",
         "silicon/200",
         "thorium/50"
     ],
