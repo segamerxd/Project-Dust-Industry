@@ -1,7 +1,6 @@
 {
  "type": "resource",
   "name": "acid ash",
-  "description": "Material Formado por Titanio plastanio silicio y torio a Presiones muy altas",
   "color": "#01DF01" 
   "hardness": 3
   "Flammability": 0.8
