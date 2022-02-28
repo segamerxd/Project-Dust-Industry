@@ -2,7 +2,6 @@
 	"type": "GenericCrafter",
 	"drawer": {
   "type": "drawArcSmelter",
-  "name": "Astral Smelter",
   "flameColor": "471FD2",
   "midColor": "9262F8",
   "flameRad": 1.6,
