@@ -1,0 +1,9 @@
+{
+"type": "OreBlock"
+"itemDrop": "acidAsh"
+"playerUnmineable": true
+"oreDefault": true
+"variants": 1
+"oreScale: 19.7
+"oreThreshold": 0.917
+}
