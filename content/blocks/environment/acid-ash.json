@@ -1,5 +1,5 @@
 {
-  "type": "Floor",
+  "type": "OreBlock",
   "itemDrop": "acidAsh",
   "playerUnmineable": true,
   "emitLight": true,
