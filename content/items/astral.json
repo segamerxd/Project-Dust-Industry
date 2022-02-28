@@ -1,9 +1,8 @@
 {
 
 "type": "resource",
-	"name": "astral",
-	"description": "Material Formado por Titanio plastanio silicio y torio a Presiones muy altas",
-	"color": "#5858FA"
+  "name": "astral",
+  "color": "#5858FA"
   "explosiveness": 0.2 
   "hardness": 4
   "explosiveness": 0.4
