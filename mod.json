@@ -8,5 +8,5 @@
   version: "1.0.101 Release"
   minGameVersion: "126"
   dependencies: []
-  hidden: true
+  hidden: false
 }
