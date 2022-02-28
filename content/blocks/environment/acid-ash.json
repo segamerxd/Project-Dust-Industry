@@ -1,7 +1,7 @@
 {
   "type": "Floor",
   "itemDrop": "acidAsh",
-  "playerUnmineable": false,
+  "playerUnmineable": true,
   "emitLight": true,
   "lightRadius": 1,
   "lightColor": "9df587",
