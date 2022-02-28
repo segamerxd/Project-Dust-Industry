@@ -1,12 +1,12 @@
 {
-  //name: "DustIndustry"
-  name: "DustInc"
+  //name: "Project Industry"
+  name: "Project"
   //displayName: "Dust Dustry Mod"
-  displayName: "Dust Industry Mod"
-  description: " Un mod de complementos ampleados donde puedes crear materiales avanzados y destruir el juego con armas radiactivas.\nPara cualquier problema o aporte contactame por Discord."
-  author: Arkanic (Discord ID: 640672013379436571)
-  version: "1.0.1 alpha"
+  displayName: "Project Industry"
+  description: " Un mod con Historia y secretos que proximamente seran revelados.
+  author: [#F16]DS[white] Arkanic
+  version: "1.0.101 alpha"
   minGameVersion: "126"
   dependencies: []
-  hidden: false
+  hidden: true
 }
