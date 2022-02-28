@@ -1,6 +1,11 @@
 {
-	"type": "resource",
-	"name": "acid ash",
-	"description": "Componente Organico Potencialmente toxico capaz de crear acido",
-	"color": "#01DF01"
+ "type": "resource",
+  "name": "astral",
+  "description": "Material Formado por Titanio plastanio silicio y torio a Presiones muy altas",
+  "color": "#01DF01" 
+  "hardness": 3
+  "Flammability": 0.8
+  "radioactivity": 0.01
+  "cost": 1.1
+  "category": "spore pod"
 }
