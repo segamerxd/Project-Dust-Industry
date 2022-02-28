@@ -42,12 +42,8 @@ if(false && Version.number > 6 && !Vars.headless){
     let animn = 0;
 
     Events.on(ClientLoadEvent, () => {
-        setBreakFx("project-acid-compount");
-        setBreakFx("project-acid-compount1");
-        setBreakFx("project-acid-compunt2");
-        setBreakFx("project-acid-compount3");
-        setBreakFx("project-acid-compunt4");
-        setProp("project-pyra-crystal");
+       
+        setProp("project-acid-compount");
         
         swapBreakSound("project-astralwall");
         
