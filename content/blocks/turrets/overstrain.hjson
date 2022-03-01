@@ -49,7 +49,7 @@
   },
 "acid-compunt": {
     "type": "LiquidBulletType",
-    "liquid": "acid-compount",
+    "liquid": "acid compount",
     "damage": 35,
     "status": "corroded",
     "pierce": true,
