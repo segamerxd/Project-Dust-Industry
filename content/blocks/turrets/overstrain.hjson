@@ -1,3 +1,4 @@
+{
 type: LiquidTurret
 name: Bubbler
 description: A piercing turret that creates hundreds of bubbles from liquids which deal low damage.
@@ -63,3 +64,4 @@ requirements: [
 ]
 category: turret
 research: wave
+}
