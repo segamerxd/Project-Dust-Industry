@@ -28,7 +28,7 @@ ammoTypes: {
     pierce: true
     lifetime: 180
     drag: 0.05
-  }
+  
   oil: {
     type: LiquidBulletType
     liquid: oil
@@ -55,7 +55,7 @@ acid-compunt: {
     pierce: true
     lifetime: 240
     drag: 0.50
-
+ }
 }
 requirements: [
   silicon/300
@@ -64,4 +64,3 @@ requirements: [
 ]
 category: turret
 research: wave
-}
