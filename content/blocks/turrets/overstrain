@@ -1,0 +1,65 @@
+type: LiquidTurret
+description: .
+health: 2000
+size: 3
+reloadTime: 3
+range: 200
+inaccuracy: 1
+rotatespeed: 5
+spread: 50
+shots: 8
+ammoTypes: {
+ water: {
+    type: LiquidBulletType
+    liquid: water
+    damage: 10
+    status: wet
+    pierce: true
+    lifetime: 420
+    drag: 1
+  }
+  slag: {
+    type: LiquidBulletType
+    liquid: slag
+    damage: 30
+    status: melting
+    pierce: true
+    lifetime: 180
+    drag: 0.50
+  }
+  oil: {
+    type: LiquidBulletType
+    liquid: oil
+    damage: 5
+    status: tarred
+    pierce: true
+    lifetime: 240
+    drag: 1.5
+  }
+  cryofluid: {
+    type: LiquidBulletType
+    liquid: cryofluid
+    damage: 10
+    status: freezing
+    pierce: true
+    lifetime: 240
+    drag: 0.5
+  }
+acid-compount: {
+    type: LiquidBulletType
+    liquid: acid compount
+    damage: 50
+    status: corroded
+    pierce: true
+    lifetime: 240
+    drag: 0.5
+
+
+}
+requirements: [
+  silicon/300
+  titanium/500
+  metaglass/300
+]
+category: turret
+research: wave
