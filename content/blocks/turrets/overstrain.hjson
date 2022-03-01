@@ -1,5 +1,5 @@
 type: LiquidTurret
-description: Un arma que lanza chorros de agua con una fuerza enorme [#crimson]ENORME! .
+description: Un arma que lanza chorros de agua con una fuerza enorme ENORME! .
 health: 2000
 size: 3
 reloadTime: 3
