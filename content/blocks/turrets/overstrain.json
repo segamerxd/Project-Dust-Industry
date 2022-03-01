@@ -57,9 +57,11 @@
 
 }
 "requirements": [
-  "silicon"/300
-  "titanium"/500
-  "metaglass"/300
+  "silicon"/300,
+  "titanium"/500,
+  "metaglass"/300,
 ]
 "category": "turret"
 "research": "wave"
+
+}
