@@ -1,68 +1,68 @@
 {
- "type": "LiquidTurret",
- "name": "HyperHopper",
- "description": "Una torreta pequeña capaz de derribar varios objetivos al mismo tiempo.",
- "health": 600,
- "size": 2,
- "reloadTime": 3,
- "range": 50,
- "inaccuracy": 200,
- "rotatespeed": 5,
- "spread": 50,
- "shots": 10,
- "ammoTypes": {
- "water": {
-    "type": "LiquidBulletType",
-    "liquid": "water",
-    "damage": 0,3,
-    "status": "wet",
-    "pierce": true,
-    "lifetime": 10,
-    "drag": 0.040
-  },
-  "slag" : {
-    "type": "LiquidBulletTy",
-    "liquid": "slag",
-    "damage": 1,
-    "status": "melting",
-    "pierce": false,
-    "lifetime": 10,
-    "drag": 0.05
-  },
-  "oil": {
-    "type": "LiquidBulletType",
-    "liquid": "oil",
-    "damage": 0,3,
-    "status": "tarred",
-    "pierce": false,
-    "lifetime": 10,
-    "drag": 0.50
-  },
-  "cryofluid": {
-    "type": "LiquidBulletType",
-    "liquid": "cryofluid",
-    "damage": 0,2,
-    "status": "freezing",
-    "pierce": true,
-    "lifetime": 10,
-    "drag": 0.10
-  },
-"acid-compount": {
-    "type": "LiquidBulletType",
-    "liquid": "acid-compount",
-    "damage": 2,
-    "status": "wet",
-    "pierce": true,
-    "lifetime": 10,
-    "drag": 0.040
-  }
-},
-"requirements": [
-  "silicon/300",
-  "titanium/600",
-  "metaglass/400"
-],
-"category": "turret",
-"research": "wave"
-
-  }
+  "type": "LiquidTurret",
+  "name": "HyperHopper",
+  "description": "Una torreta pequeña capaz de derribar varios objetivos al mismo tiempo.",
+  "health": 600,
+  "size": 2,
+  "reloadTime": 3,
+  "range": 50,
+  "inaccuracy": 200,
+  "rotatespeed": 5,
+  "spread": 50,
+  "shots": 10,
+  "ammoTypes": {
+  "water": {
+     "type": "LiquidBulletType",
+     "liquid": "water",
+     "damage": 0.3,
+     "status": "wet",
+     "pierce": true,
+     "lifetime": 10,
+     "drag": 0.040
+   },
+   "slag" : {
+     "type": "LiquidBulletTy",
+     "liquid": "slag",
+     "damage": 1,
+     "status": "melting",
+     "pierce": false,
+     "lifetime": 10,
+     "drag": 0.05
+   },
+   "oil": {
+     "type": "LiquidBulletType",
+     "liquid": "oil",
+     "damage": 0.3,
+     "status": "tarred",
+     "pierce": false,
+     "lifetime": 10,
+     "drag": 0.50
+   },
+   "cryofluid": {
+     "type": "LiquidBulletType",
+     "liquid": "cryofluid",
+     "damage": 0.2,
+     "status": "freezing",
+     "pierce": true,
+     "lifetime": 10,
+     "drag": 0.10
+   },
+ "acid-compount": {
+     "type": "LiquidBulletType",
+     "liquid": "acid-compount",
+     "damage": 2,
+     "status": "wet",
+     "pierce": true,
+     "lifetime": 10,
+     "drag": 0.040
+   }
+ },
+ "requirements": [
+   "silicon/300",
+   "titanium/600",
+   "metaglass/400"
+ ],
+ "category": "turret",
+ "research": "wave"
+ 
+ }
