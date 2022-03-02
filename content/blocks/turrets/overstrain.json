@@ -47,7 +47,7 @@
     "lifetime": 240,
     "drag": 0.10
   },
-"acid-compunt": {
+"acid-compount": {
     "type": "LiquidBulletType",
     "liquid": "acid compount",
     "damage": 35,
