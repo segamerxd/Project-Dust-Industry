@@ -36,7 +36,7 @@
         "shrinkX": 0.1,
         "speed": 10,
         "lifetime": 40,
-        "damage": 2,
+        "damage": 5,
         "height": 5,
         "width": 2,
         "hitEffect": {
