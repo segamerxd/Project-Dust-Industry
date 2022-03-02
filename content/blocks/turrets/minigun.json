@@ -27,11 +27,11 @@
     "recoilAmount": 0.5,
     "restitution": 0.07,
     "rotateSpeed": 5,
-    "shootSound": "sap",
+    "shootSound": "drill",
     "hasPower": true,
     "ammoTypes": {
         "copper": {
-        "type": "LaserBoltBulletType",
+        "type": "BasicBulletType",
         "shrinkY": 0.1,
         "shrinkX": 0.1,
         "speed": 10,
