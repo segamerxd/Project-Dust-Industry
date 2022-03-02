@@ -1,74 +1,74 @@
 {
-"type": "ItemTurret",
-    "researchCostMultiplier": 0.5,
-    "size": 2,
-    "health": 240,
-    "reloadTime": 5,
-    "range": 180,
-    "inaccuracy": 1,
-    "shots": 3,
-    "spread": 3,
-    "alternate": true,
-    "targetAir": true,
-    "targetGround": true,
-    "shootEffect": {
-    "type": "ParticleEffect",
-    "line": true,
-    "particles": 10,
-    "lifetime": 10,
-    "length": 35,
-    "cone": -360,
-    "lenFrom": 5,
-    "lenTo": 0,
-    "colorFrom": "eda758",
-    "colorTo": "eda758"
-    },
-    "shootCone": 0.08,
-    "recoilAmount": 0.5,
-    "restitution": 0.07,
-    "rotateSpeed": 5,
-    "shootSound": "drill",
-    "hasPower": true,
-    "ammoTypes": {
-        "astral": {
-        "type": "LaserBoltBulletType",
-        "shrinkY": 0.1,
-        "shrinkX": 0.1,
-        "speed": 5,
-        "lifetime": 40,
-        "damage": 15,
-        "height": 5,
-        "width": 2,
-        "hitEffect": {
-        "type": "ParticleEffect",
-        "line": true,
-        "particles": 5,
-        "lifetime": 10,
-        "length": 10,
-        "cone": -360,
-        "lenFrom": 1,
-        "lenTo": 0,
-        "colorFrom": "eda758",
-        "colorTo": "eda758"
-        },
-        "despawnEffect": {
-        "type": "WaveEffect",
-        "lifetime": 25,
-        "sizeFrom": 0,
-        "sizeTo": 10,
-        "strokeFrom": 1,
-        "strokeTo": 0,
-        "colorFrom": "f09f43",
-        "colorTo": "f09f43"
-        },
-        "frontColor": "FFFFFFF",
-        "backColor": "f09f43"
-            }
-    },
-    "requirements": [
-        "copper/300",
-        "lead/200",
-        "graphite/100"
-    ],
-    "category": "turret",
-    "research": "duo"
+ "type": "ItemTurret",
+ "name": "minigun",
+ "description": "arma pequeña pero letal capaz de lanzar mas de 10 balas por segundo.",
+ "health": 450,
+ "size": 2,
+ "reloadTime": 180,
+ "range": 125,
+ "ejectEffect": "shellEjectSmall",
+ "inaccuracy": 2,
+ "rotatespeed": 2,
+ "shots": 1,
+ "ammoPerShot": 1,
+ "targetAir": true,
+ "ammoTypes": {
+  "copper": {
+    "speed": 10,
+    "damage": 2,
+   "ammoMultiplier": 1,
+    "fragBullets": 4,
+    "lifetime": 120,
+   "hitSize": 8,
+    "drawSize": 80,
+    "collidesAir": false,
+    "fragBullet": {
+      "speed": 4,
+      "damage": 10
+    }
+  },
+  "graphite": {
+    "speed": 10,
+    "damage": 4,
+    "ammoMultiplier": 1,
+    "fragBullets": 30,
+    "lifetime": 120,
+    "hitSize": 8,
+    "drawSize": 80,
+    "collidesAir": false,
+    "fragBullet": {
+      "speed": 4,
+     "damage": 2
+    }
+  },
+  "coal": {
+    "speed": 10,
+    "damage": 1,
+    "ammoMultiplier": 1,
+    "fragBullets": 10,
+    "lifetime": 120,
+   "hitSize": 8,
+    "drawSize": 80,
+    "collidesAir": false,
+    "incendAmount": 0.1,
+    "incendSpread": 0.4,
+    "incendChance": 0.7,
+    "fragBullet": {
+      "speed": 2,
+      "damage": 2,
+      "incendAmount": 0.1,
+      "incendSpread": 0.1,
+      "incendChance": 0.1
+  }
+},
+ "requirements": [
+  "copper/200",
+  "lead/100",
+  "graphite/100"
+],
+"category": "turret",
+"research": "duo"
+ 
+  }
+}
+
