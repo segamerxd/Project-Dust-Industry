@@ -1,6 +1,6 @@
 {
  "type": "LiquidTurret",
- "name": "Bubbler",
+ "name": "HyperHopper",
  "description": "A piercing turret that creates hundreds of bubbles from liquids which deal low damage.",
  "health": 600,
  "size": 2,
