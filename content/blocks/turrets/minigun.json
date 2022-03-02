@@ -3,12 +3,11 @@
   "targetAir": true,
   "targetGround": true,
   "health": 800,
-  "size": 3,
+  "size": 2,
   "inaccuracy": 2,
   "reloadTime": 1,
   "shots": 10,
   "recoilAmount": 10,
-  "ammoUseEffect": "casing3",
   "shootSound": "drill",
   "shootCone": 25,
   "rotateSpeed": 5,
@@ -69,12 +68,14 @@
       "incendChance": 0.1
   }
 },
-  "requirements": [
-        "astral/20",
-        "silicon/200",
-        "thorium/50"
-    ],
+  
+"requirements": [
+"astral/20",
+"silicon/200",
+"thorium/50"
+],
+
     "category": "turret",
-    "research": "fuse"
+    "research": "duo"
  }
 }
