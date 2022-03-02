@@ -1,7 +1,7 @@
 {
 "type": "ItemTurret",
     "researchCostMultiplier": 0.5,
-    "size": 2,
+    "size": 3,
     "health": 240,
     "reloadTime": 1,
     "range": 60,
