@@ -1,7 +1,7 @@
 {
 "type": "ItemTurret",
     "researchCostMultiplier": 0.5,
-    "size": 4,
+    "size": 2,
     "health": 240,
     "reloadTime": 5,
     "range": 180,
@@ -20,8 +20,8 @@
     "cone": -360,
     "lenFrom": 5,
     "lenTo": 0,
-    "colorFrom": "cf9a5d",
-    "colorTo": "cf9a5d"
+    "colorFrom": "eda758",
+    "colorTo": "eda758"
     },
     "shootCone": 0.08,
     "recoilAmount": 0.5,
@@ -30,7 +30,7 @@
     "shootSound": "drill",
     "hasPower": true,
     "ammoTypes": {
-        "copper": {
+        "astral": {
         "type": "LaserBoltBulletType",
         "shrinkY": 0.1,
         "shrinkX": 0.1,
@@ -48,8 +48,8 @@
         "cone": -360,
         "lenFrom": 1,
         "lenTo": 0,
-        "colorFrom": "cf9a5d",
-        "colorTo": "cf9a5d"
+        "colorFrom": "eda758",
+        "colorTo": "eda758"
         },
         "despawnEffect": {
         "type": "WaveEffect",
@@ -58,19 +58,17 @@
         "sizeTo": 10,
         "strokeFrom": 1,
         "strokeTo": 0,
-        "colorFrom": "b6d2f2",
-        "colorTo": "b6d2f2"
+        "colorFrom": "f09f43",
+        "colorTo": "f09f43"
         },
         "frontColor": "FFFFFFF",
-        "backColor": "eda758"
+        "backColor": "f09f43"
             }
-        },
-        "requirements": [
-            "graphite/100",
-            "copper/200",
-            "lead/100"
-        ],
-        "category": "turret",
-        "research": "duo"
-    }
-    
+    },
+    "requirements": [
+        "copper/300",
+        "lead/200",
+        "graphite/100"
+    ],
+    "category": "turret",
+    "research": "duo"
