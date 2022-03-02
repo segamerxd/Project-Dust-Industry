@@ -31,7 +31,7 @@
     "hasPower": true,
     "ammoTypes": {
         "copper": {
-        "type": "BulletType",
+        "type": "BasicBulletType",
         "shrinkY": 1,
         "shrinkX": 0.1,
         "speed": 10,
