@@ -10,3 +10,12 @@
   "dependencies": []
   "hidden": false
 }
+
+{
+    "displayName": "[cyan][#F16]Dust [sky]Industry",
+    "name": "[#F16]Project [white]Industry",
+    "author": "[#ff5500]Arkanic",
+    "description":"Un mod con Historia y secretos que proximamente seran revelados.",
+    "minGameVersion": "126.2",
+    "version": "[#F16]1.0.126 [green]Release"
+}
