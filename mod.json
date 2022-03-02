@@ -2,11 +2,11 @@
   //name: "ProjectIndustry"
   name: "Project"
   //displayName: "Dust Dustry Mod"
-  displayName: "Project Industry"
-  description: " Un mod con Historia y secretos que proximamente seran revelados."
-  author: DS Arkanic
-  version: "1.0.101 Release"
-  minGameVersion: "126"
-  dependencies: []
-  hidden: false
+  "displayName": "Project Industry"
+  "description": " Un mod con Historia y secretos que proximamente seran revelados."
+  "author": "[#F16]DS Arkanic"
+ " version": "1.0.102 Release"
+  "minGameVersion": "126"
+  "dependencies: []
+  "hidden": false
 }
