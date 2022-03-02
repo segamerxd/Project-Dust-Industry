@@ -1,17 +1,25 @@
 {
- "type": "ItemTurret",
- "name": "minigun",
- "description": "arma pequeña pero letal capaz de lanzar mas de 10 balas por segundo.",
- "health": 450,
- "size": 2,
- "reloadTime": 180,
- "range": 125,
- "ejectEffect": "shellEjectSmall",
- "inaccuracy": 2,
- "rotatespeed": 2,
- "shots": 1,
- "ammoPerShot": 1,
- "targetAir": true,
+  "type": "ItemTurret",
+  "targetAir": true,
+  "targetGround": true,
+  "health": 800,
+  "size": 2,
+  "inaccuracy": 2,
+  "reloadTime": 1,
+  "shots": 10,
+  "recoilAmount": 10,
+  "ammoUseEffect": "casing3",
+  "shootSound": "drill",
+  "shootCone": 25,
+  "rotateSpeed": 5,
+  "range": 40,
+  "consumes": {
+    "liquid": {
+      "liquid": "water",
+      "amount": 0.5,
+      "booster": true
+ }
+},
  "ammoTypes": {
   "copper": {
     "speed": 10,
