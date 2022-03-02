@@ -1,7 +1,7 @@
 {
 "type": "ItemTurret",
     "researchCostMultiplier": 0.5,
-    "size": 4,
+    "size": 2,
     "health": 240,
     "reloadTime": 10,
     "range": 180,
@@ -61,7 +61,7 @@
         "colorFrom": "b6d2f2",
         "colorTo": "b6d2f2"
         },
-        "frontColor": "ff8000",
+        "frontColor": "FFFFFFF",
         "backColor": "d19552"
             }
     },
