@@ -31,13 +31,12 @@
     "hasPower": true,
     "ammoTypes": {
         "copper": {
-        "type": "BulletTyper",
+        "type": "LaserBoltBulletType",
         "shrinkY": 0.1,
         "shrinkX": 0.1,
         "speed": 5,
         "lifetime": 40,
         "damage": 15,
-        "status": "shocked",
         "height": 5,
         "width": 2,
         "hitEffect": {
