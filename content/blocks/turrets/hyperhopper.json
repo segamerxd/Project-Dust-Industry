@@ -1,7 +1,7 @@
 {
  "type": "LiquidTurret",
  "name": "HyperHopper",
- "description": "A piercing turret that creates hundreds of bubbles from liquids which deal low damage.",
+ "description": "Una torreta pequeña capaz de derribar varios objetivos al mismo tiempo.",
  "health": 600,
  "size": 2,
  "reloadTime": 3,
