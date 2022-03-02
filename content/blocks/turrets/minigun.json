@@ -3,7 +3,7 @@
     "researchCostMultiplier": 0.5,
     "size": 2,
     "health": 240,
-    "reloadTime": 20,
+    "reloadTime": 1,
     "range": 180,
     "inaccuracy": 0.5,
     "shots": 3,
@@ -15,7 +15,7 @@
     "type": "ParticleEffect",
     "line": true,
     "particles": 10,
-    "lifetime": 1,
+    "lifetime": 40,
     "length": 35,
     "cone": -360,
     "lenFrom": 5,
@@ -27,8 +27,7 @@
     "recoilAmount": 0.5,
     "restitution": 0.07,
     "rotateSpeed": 5,
-    "shootSound": "drill",
-    "lifetime": 1,
+    "shootSound": "splash",
     "hasPower": true,
     "ammoTypes": {
         "copper": {
