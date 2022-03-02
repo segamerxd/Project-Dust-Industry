@@ -28,7 +28,7 @@
     "restitution": 0.07,
     "rotateSpeed": 5,
     "shootSound": "splash",
-    "hasPower": true,
+    "hasPower": false,
     "ammoTypes": {
         "copper": {
         "type": "BasicBulletType",
@@ -36,7 +36,7 @@
         "shrinkX": 0.1,
         "speed": 10,
         "lifetime": 40,
-        "damage": 5,
+        "damage": 10,
         "height": 5,
         "width": 2,
         "hitEffect": {
