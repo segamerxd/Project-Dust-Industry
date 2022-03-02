@@ -1,4 +1,4 @@
-const planetGen = require("projectindustry/libs/planetGen");
+const planetGen = require("project/libs/planetGen");
 
 const caeruleum = extend(Planet, "zertack", Planets.sun, 4, 1.30, {
   generator: planetGen.planetGen,
@@ -11,4 +11,4 @@ const caeruleum = extend(Planet, "zertack", Planets.sun, 4, 1.30, {
   localizedName: "Zertack",
   startSector: 10
 });
-caeruleum.meshLoader = () => extend(HexMesh, zertack, 6, {});
+zertack.meshLoader = () => extend(HexMesh, zertack, 6, {});
