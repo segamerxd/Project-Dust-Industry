@@ -1,17 +1,4 @@
 {
-  //name: "ProjectIndustry"
-  name: "Project"
-  //displayName: Dust Dustry Mod
-  "displayName": "Project Industry"
-  "description": " Un mod con Historia y secretos que proximamente seran revelados."
-  "author": "[#F16]DS Arkanic"
- " version": "1.0.102 Release"
-  "minGameVersion": "126"
-  "dependencies": []
-  "hidden": false
-}
-
-{
     "displayName": "[cyan][#F16]Dust [sky]Industry",
     "name": "[#F16]Project [white]Industry",
     "author": "[#ff5500]Arkanic",
