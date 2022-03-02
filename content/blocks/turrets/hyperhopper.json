@@ -50,11 +50,11 @@
 "acid-compount": {
     "type": "LiquidBulletType",
     "liquid": "acid-compount",
-    "damage": 35,
-    "status": "corroded",
+    "damage": 30,
+    "status": "wet",
     "pierce": true,
     "lifetime": 10,
-    "drag": 0.005
+    "drag": 0.040
   }
 },
 "requirements": [
