@@ -1,77 +1,78 @@
 {
-"type": "ItemTurret",
-    "researchCostMultiplier": 0.5,
-    "size": 3,
-    "health": 240,
-    "reloadTime": 1,
-    "range": 60,
-    "inaccuracy": 1,
-    "shots": 5,
-    "spread": 1,
-    "alternate": true,
-    "targetAir": true,
-    "targetGround": true,
-    "shootEffect": {
-    "type": "ParticleEffect",
-    "line": true,
-    "particles": 10,
-    "lifetime": 10,
-    "length": 35,
-    "cone": -360,
-    "lenFrom": 5,
-    "lenTo": 0,
-    "colorFrom": "b6d2f2",
-    "colorTo": "b6d2f2"
-    },
-    "shootCone": 0.08,
-    "recoilAmount": 0.5,
-    "restitution": 0.07,
-    "rotateSpeed": 5,
-    "shootSound": "drill",
-    "hasPower": true,
-    "ammoTypes": {
-        "copper": {
-        "type": "BasicBulletType",
-        "shrinkY": 1,
-        "shrinkX": 0.1,
-        "speed": 10,
-        "sprite": "bullet-01",
-        "lifetime": 360,
-        "width": 6,
-        "height": 6,
-        "lightColor": "83f793",
-        "hitColor": "83f793",
-        "hitEffect": {
+    "type": "ItemTurret",
+        "researchCostMultiplier": 0.5,
+        "size": 3,
+        "health": 240,
+        "reloadTime": 1,
+        "range": 60,
+        "inaccuracy": 1,
+        "shots": 5,
+        "spread": 1,
+        "alternate": true,
+        "targetAir": true,
+        "targetGround": true,
+        "shootEffect": {
         "type": "ParticleEffect",
         "line": true,
-        "particles": 6,
+        "particles": 10,
         "lifetime": 10,
-        "length": 5,
+        "length": 35,
         "cone": -360,
-        "lenFrom": 1,
+        "lenFrom": 5,
         "lenTo": 0,
-        "colorFrom": "83f793",
-        "colorTo": "83f793"
+        "colorFrom": "b6d2f2",
+        "colorTo": "b6d2f2"
         },
-        "despawnEffect": {
-        "type": "WaveEffect",
-        "lifetime": 40,
-        "sizeFrom": 0,
-        "sizeTo": 10,
-        "strokeFrom": 1,
-        "strokeTo": 0,
-        "colorFrom": "edbc61",
-        "colorTo": "edbc61"
+        "shootCone": 0.08,
+        "recoilAmount": 0.5,
+        "restitution": 0.07,
+        "rotateSpeed": 5,
+        "shootSound": "drill",
+        "hasPower": true,
+        "ammoTypes": {
+            "copper": {
+            "type": "BasicBulletType",
+            "shrinkY": 1,
+            "shrinkX": 0.1,
+            "speed": 10,
+            "sprite": "bullet-01",
+            "lifetime": 360,
+            "width": 6,
+            "height": 6,
+            "backcolor": "83f793",
+            
+            "hitEffect": {
+            "type": "ParticleEffect",
+            "line": true,
+            "particles": 6,
+            "lifetime": 10,
+            "length": 5,
+            "cone": -360,
+            "lenFrom": 1,
+            "lenTo": 0,
+            "colorFrom": "83f793",
+            "colorTo": "83f793"
+            },
+            "despawnEffect": {
+            "type": "WaveEffect",
+            "lifetime": 40,
+            "sizeFrom": 0,
+            "sizeTo": 10,
+            "strokeFrom": 1,
+            "strokeTo": 0,
+            "colorFrom": "edbc61",
+            "colorTo": "edbc61"
+            },
+            "frontColor": "FFFFFFF",
+            "backColor": "edbc61"
+                }
         },
-        "frontColor": "FFFFFFF",
-        "backColor": "edbc61"
-            }
-    },
-    "requirements": [
-        "graphite/100",
-        "copper/200",
-        "lead/100"
-    ],
-    "category": "turret",
-    "research": "duo"
-}
+        "requirements": [
+            "graphite/100",
+            "copper/200",
+            "lead/100"
+        ],
+        "category": "turret",
+        "research": "duo"
+    }
+    
