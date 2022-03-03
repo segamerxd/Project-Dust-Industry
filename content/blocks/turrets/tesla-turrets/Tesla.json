@@ -32,8 +32,8 @@
     "rotateSpeed": 5,
     "shootSound": "sap",
     "hasPower": true,
-  "shootTypes": 
-  {
+  "ammoTypes": {
+        { 
         "type": "LightningBulletType",
         "shrinkY": 1,
         "shrinkX": 0.1,
