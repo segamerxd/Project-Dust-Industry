@@ -32,7 +32,7 @@
     "rotateSpeed": 5,
     "shootSound": "sap",
     "hasPower": true,
-    {,
+    {
         {
         "type": "LightningBulletType",
         "shrinkY": 1,
