@@ -28,6 +28,7 @@
     "colorTo": "b6d2f2"
     },
        {
+         {
         "type": "LightningBulletType",
         "shrinkY": 1,
         "shrinkX": 0.1,
