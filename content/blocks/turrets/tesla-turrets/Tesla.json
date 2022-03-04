@@ -5,6 +5,7 @@
     "health": 240,
     "reloadTime": 30,
     "range": 20,
+    "hasPower": true
     "powerUse": 100,
     "inaccuracy": 50,
     "shots": 10,
@@ -26,14 +27,6 @@
     "colorFrom": "b6d2f2",
     "colorTo": "b6d2f2"
     },
-    "shootCone": 0.08,
-    "recoilAmount": 0.5,
-    "restitution": 0.07,
-    "rotateSpeed": 5,
-    "shootSound": "sap",
-    "hasPower": true,
-    {
-        {
         "type": "LightningBulletType",
         "shrinkY": 1,
         "shrinkX": 0.1,
