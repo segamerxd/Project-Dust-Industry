@@ -1,72 +1,78 @@
 {
-"type": "PowerTurret",
-"researchCostMultiplier": 0.2,
- ​"name": "Tesla",
- ​"description": "Energy!",
- ​"health": 3000,
- ​"size": 4,
- ​"reloadTime": 30,
- ​"range": 50,
- ​"coolantMultiplier": 7,
- ​"liquidCapacity": 40,
- ​"buildCostMultiplier": 0.33333333,
- ​"inaccuracy": 0,
- ​"rotateSpeed": 0,
- ​"cooldown": 0.003333,
- ​"shootSound": "sap",
- ​"shootCone": 0.1,
-    "rotatorRegion": "Tesla-top",
-    "line": true,
-    "particles": 10,
-    "lifetime": 10,
-    "length": 35,
-    "cone": -360,
-    "lenFrom": 5,
-    "lenTo": 0,
-    "colorFrom": "b6d2f2",
-    "colorTo": "b6d2f2"
-    },
-       {
-        "type": "LightningBulletType",
-        "shrinkY": 1,
-        "shrinkX": 0.1,
-        "speed": 10,
-        "lifetime": 360,
-        "width": 6,
-        "height": 6,
-        "lightColor": "f2fffe",
-        "hitColor": "f2fffe",
-        "hitEffect": {
+    "type": "PowerTurret",
+        "researchCostMultiplier": 0.2,
+        "size": 4,
+        "health": 240,
+        "reloadTime": 30,
+        "range": 20,
+        "inaccuracy": 50,
+        "shots": 10,
+        "spread": 1,
+        "alternate": true,
+        "targetAir": false,
+        "targetGround": true,
+        "shootEffect": {
         "type": "ParticleEffect",
+        "status": "electrified",
+        "rotatorRegion": "Tesla-top",
         "line": true,
-        "particles": 6,
+        "particles": 10,
         "lifetime": 10,
-        "length": 5,
+        "length": 35,
         "cone": -360,
-        "lenFrom": 1,
+        "lenFrom": 5,
         "lenTo": 0,
-        "colorFrom": "f2fffe",
-        "colorTo": "f2fffe"
+        "colorFrom": "b6d2f2",
+        "colorTo": "b6d2f2"
         },
-        "despawnEffect": {
-        "type": "WaveEffect",
-        "lifetime": 40,
-        "sizeFrom": 0,
-        "sizeTo": 10,
-        "strokeFrom": 1,
-        "strokeTo": 0,
-        "colorFrom": "edbc61",
-        "colorTo": "edbc61"
+        "shootCone": 0.08,
+        "recoilAmount": 0.5,
+        "restitution": 0.07,
+        "rotateSpeed": 5,
+        "shootSound": "",
+        "hasPower": true,
+      "ammoTypes": {
+            "copper": {  
+            "type": "LightningBulletType",
+            "shrinkY": 1,
+            "shrinkX": 0.1,
+            "speed": 10,
+            "lifetime": 360,
+            "width": 6,
+            "height": 6,
+            "lightColor": "f2fffe",
+            "hitColor": "f2fffe",
+            "hitEffect": {
+            "type": "ParticleEffect",
+            "line": true,
+            "particles": 6,
+            "lifetime": 10,
+            "length": 5,
+            "cone": -360,
+            "lenFrom": 1,
+            "lenTo": 0,
+            "colorFrom": "f2fffe",
+            "colorTo": "f2fffe"
+            },
+            "despawnEffect": {
+            "type": "WaveEffect",
+            "lifetime": 40,
+            "sizeFrom": 0,
+            "sizeTo": 10,
+            "strokeFrom": 1,
+            "strokeTo": 0,
+            "colorFrom": "edbc61",
+            "colorTo": "edbc61"
+            },
+            "frontColor": "FFFFFFF",
+            "backColor": "f2fffe"
+                }
         },
-        "frontColor": "FFFFFFF",
-        "backColor": "f2fffe"
-            }
-    },
-    "requirements": [
-        "silicon/600",
-        "copper/1200",
-        "graphite/500"
-    ],
-    "category": "turret",
-    "research": "lancer"
-}
+        "requirements": [
+            "silicon/600",
+            "copper/1200",
+            "graphite/500"
+        ],
+        "category": "turret",
+        "research": "arc"
+    }
